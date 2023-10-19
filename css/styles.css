@@ -1,0 +1,17 @@
+:root {
+  --brand-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --primary-text-color: #212121;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}

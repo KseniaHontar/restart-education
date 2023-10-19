@@ -1,0 +1,15 @@
+.logo-header{
+    @extend %logo;
+    margin-right: 93px;
+    color: $color-black;
+}
+
+.logo-footer{
+    @extend %logo;
+    color: $color-white;
+}
+
+.logo-part {
+    @extend %logo;
+    color: $primarycolor;
+}

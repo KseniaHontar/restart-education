@@ -1,0 +1,36 @@
+.contact-list{
+    margin-left: auto;
+    display: flex;
+    gap: 50px;
+
+    &__item{
+        text-decoration: none;
+
+        
+&:hover .contact-list__icon,
+&:focus .contact-list__icon{
+ fill: $primarycolor;
+}
+    }
+}
+
+.contact-list__link{
+@include paragraph(500, 14px, 1.14);
+margin-left: 10px;
+@include transition(color);
+
+&:hover,
+&:focus{
+    color: $primarycolor;
+}
+
+}
+
+.contact-list__item{
+    display: flex;
+    align-items: center;
+}
+.contact-list__icon{
+    fill: $second-color;
+    @include transition(fill);
+}

@@ -1,0 +1,45 @@
+.secondary-title {
+    margin-bottom: 50px;
+
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $color-text;
+
+}
+
+.gallery-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img-wrap{
+position: relative;
+}
+
+.img-wrap__description{
+padding-top: 27px;
+padding-bottom: 27px;
+position: absolute;
+bottom: 3px;
+
+color: $color-white;
+text-align: center;
+font-size: 14px;
+font-family: $primary-font;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase; 
+width: 370px;
+height: 70px;
+
+background-color: rgba(47, 48, 58, 0.80);
+
+}

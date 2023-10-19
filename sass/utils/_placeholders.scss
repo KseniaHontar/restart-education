@@ -1,0 +1,37 @@
+%logo {
+    margin-left: 0;
+    font-family: $logo-font;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+%footer-link{
+font-family: $primary-font;
+
+font-weight: 400;
+line-height: 1.71;
+font-size: 14px;
+letter-spacing: 0.02em;
+font-style: normal;
+text-decoration: none;
+color: $second-color;
+}
+
+%button{
+background: $primarycolor;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+border-radius: $border-radius;
+
+font-family: $primary-font;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.96px;
+text-align: center;
+color: $color-white;
+
+cursor: pointer;
+}
